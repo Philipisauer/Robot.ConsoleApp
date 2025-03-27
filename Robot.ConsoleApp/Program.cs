@@ -6,14 +6,11 @@
         {
             while (true)
             {
-                Console.WriteLine("digite o numero de qudrados da linha do grid: ");
-                int area = Convert.ToInt32(Console.ReadLine());
+                Grid.area();
 
-                int numeroDeCasas;
+                //robo
 
-                numeroDeCasas = area * area;
 
-                Console.WriteLine($"Area é de: {numeroDeCasas} casas.");
 
                 Console.ReadLine();
             }
