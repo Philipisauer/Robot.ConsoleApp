@@ -6,18 +6,23 @@ using System.Threading.Tasks;
 
 namespace Robot.ConsoleApp
 {
-    class Grid
+    public class Grid
     {
-        public static void area() 
+        public static int area = 0;
+        public static int numeroDeCasas;
+        public static void ObterArea() 
         {
             Console.WriteLine("digite o numero de qudrados da linha do grid: ");
-            int area = Convert.ToInt32(Console.ReadLine());
-
-            int numeroDeCasas;
+            area = Convert.ToInt32(Console.ReadLine());
 
             numeroDeCasas = area * area;
 
             Console.WriteLine($"Area é de: {numeroDeCasas} casas.");
+        }
+        public static int MostrarArea() 
+        {
+            Console.WriteLine($"Area é de: {numeroDeCasas} casas.");
+            return numeroDeCasas;
         }
     }
 }
