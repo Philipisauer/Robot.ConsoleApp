@@ -6,7 +6,7 @@
         {
             while (true)
             {
-                Console.WriteLine("digite a area do Robô: ");
+                Console.WriteLine("digite o numero de qudrados da linha do grid: ");
                 int area = Convert.ToInt32(Console.ReadLine());
 
                 int numeroDeCasas;
